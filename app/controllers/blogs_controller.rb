@@ -28,6 +28,7 @@ class BlogsController < ApplicationController
   end
   
   def destroy
+    blog = Blog.find(params[:id])
   end
 
   private
